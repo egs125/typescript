@@ -1,0 +1,11 @@
+{
+    "compilerOptions": { // typescript -> javascript 변환 시 어떻게 변환할지 명세
+        "module": "commonjs",
+        "target": "ES2015", // 어떤 버전으로 컴파일할지
+        "sourceMap": true,
+        "outDir": "dist"
+    },
+    // 어떤 파일들이 컴파일 과정에서 포함되는지 명세
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
